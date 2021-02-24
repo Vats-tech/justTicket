@@ -1,0 +1,123 @@
+
+.slider{
+	overflow: hidden;
+	height: 400px;
+}
+.slider figure{
+	float:left;
+	width: 33%%;
+}
+
+.slider figure img{
+  
+	width:800px;
+	float: left;
+    padding-top: 56px;
+}
+.slider figure{
+	position: relative;
+	width: 400%;
+	margin:0px;
+	left: 0;
+	animation: 70s vats infinite;
+}
+
+@keyframes vats{
+
+
+	0%{
+		left:0%;
+	}
+	17%{
+		left:-90%;
+	}
+	34%{
+		left:-180%;
+	}
+	51%{
+		left:-269%;
+	}
+	68%{
+		left:-180%;
+	}
+	85%{
+		left:-90%;
+	}
+	99%{
+		left: 0%
+	}
+	}
+.headertop{
+	padding-left: 25%;
+	padding-top: 50px;
+  
+}
+.image-in-box{
+	width: 88%;
+	height: 80%;
+	border-radius: 2%;
+}
+
+#hoga:hover{
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,.2);
+  width: 88.2%;
+  height: 80.2%;
+ 
+
+}
+.container-1{
+  display: flex;
+  flex-wrap:wrap;
+  //justify-content: flex-end;
+}
+
+.containerr div{
+	padding: 2%;
+	
+}
+.box-1{
+   flex-basis: 33%;
+
+}
+
+.spacing{
+	
+	background-color: black;
+
+	padding-top: 5%;
+}
+
+#footerstyle{
+	width: 100%;
+	background-color: black;
+	float: left;
+	/*position: fixed;*/
+}
+
+.About1{
+    font-weight: 3px;
+	padding-left: 0px;
+	color: white;
+	float: left;
+	padding-bottom: 50px;
+	margin-left: 250px;
+
+}
+
+
+.divv{
+	margin-top: 50px;
+	/*width: 350px;*/
+	/*height: 500px;*/
+	float: left;
+	/*background-color: blue;*/
+	margin-left: 20px;
+}
+.welu{
+           font-family: 'Monoton', cursive;
+           color:rgb(142, 13, 66);
+           /*font-size:21px;*/
+
+}
+
+
